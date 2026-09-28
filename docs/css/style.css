@@ -1,0 +1,13 @@
+/* ==========================================================================
+   WAALL - Custom Stylesheet (Buildless Vanilla CSS)
+   ========================================================================== */
+
+/* Smooth scroll & sticky header offset */
+html {
+    scroll-padding-top: 5rem;
+}
+
+/* Base Typography */
+body {
+    font-family: 'Inter', 'Noto Sans JP', sans-serif;
+}
