@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WAALL | デジタルプロダクト伴走支援</title>
+    <meta name="description" content="ソフトウェア開発とプロダクトマネジメントの知見で、自社サービスの立ち上げ・開発の内製化を伴走支援します。">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans JP', sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-slate-200">
+
+    <!-- Header -->
+    <header class="max-w-4xl mx-auto px-6 py-12 flex justify-between items-center">
+        <a href="#" class="flex items-center">
+            <img src="images/horizontal-bk.svg" alt="WAALL" class="h-8 w-auto">
+        </a>
+        <nav class="space-x-6 text-sm text-slate-600">
+            <a href="#services" class="hover:text-slate-900">Services</a>
+            <a href="#about" class="hover:text-slate-900">About</a>
+            <a href="#contact" class="hover:text-slate-900 font-medium text-slate-900">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <main class="max-w-4xl mx-auto px-6 py-16">
+        <section class="mb-24">
+            <h1 class="text-3xl sm:text-4xl font-extrabold text-slate-900 leading-tight mb-6">
+                不確実な開発を、<br>確かなプロダクトへ。
+            </h1>
+            <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mb-8">
+                WAALLは、プロダクトマネジメントとソフトウェアエンジニアリングの境界を繋ぎ、自社サービスの立ち上げや受託からの転換、開発の内製化を伴走支援するスタジオです。
+            </p>
+            <a href="#contact"
+                class="inline-flex items-center justify-center px-6 py-3 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition">
+                無料相談・お問い合わせ
+            </a>
+        </section>
+
+        <!-- Services -->
+        <section id="services" class="mb-24">
+            <h2 class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-8">Areas of Practice</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 bg-white border border-slate-200/80 rounded-xl">
+                    <h3 class="font-bold text-slate-900 mb-2">Product Management</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        要求の整理、仮説検証、スコープ管理。つくるべきものの解像度を上げ、優先順位を明確化します。
+                    </p>
+                </div>
+                <div class="p-6 bg-white border border-slate-200/80 rounded-xl">
+                    <h3 class="font-bold text-slate-900 mb-2">Technical Advisory</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        アーキテクチャの妥当性評価や仕様調査、技術負債の棚卸しなど、開発現場の意思決定を支援します。
+                    </p>
+                </div>
+                <div class="p-6 bg-white border border-slate-200/80 rounded-xl">
+                    <h3 class="font-bold text-slate-900 mb-2">Team Enablement</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        定例MTGやチャットを通じた壁打ち伴走。社内チームが自律的に開発サイクルを回せる体制をつくります。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Profile -->
+        <section id="about" class="mb-24 p-8 bg-white border border-slate-200/80 rounded-xl">
+            <h2 class="text-xs font-bold tracking-widest text-slate-400 uppercase mb-4">About</h2>
+            <h3 class="text-lg font-bold text-slate-900 mb-2">WAALL（ウォール）</h3>
+            <p class="text-sm text-slate-600 leading-relaxed mb-4">
+                エンジニアリングの実務経験を背景に持つプロダクトマネージャーによる個人事業主スタジオ。技術的な実現可能性とビジネス要件のバランスを取った伴走支援を提供します。
+            </p>
+            <div class="text-sm text-slate-500">
+                Blog: <a href="https://develtips.com" target="_blank" rel="noopener noreferrer"
+                    class="text-slate-700 underline hover:text-slate-900">develtips.com</a>
+            </div>
+        </section>
+
+        <!-- Contact (HubSpot Form) -->
+        <section id="contact" class="mb-16">
+            <div class="p-8 bg-white border border-slate-200/80 rounded-xl">
+                <h2 class="text-xl font-bold text-slate-900 mb-2">お問い合わせ</h2>
+                <p class="text-sm text-slate-600 mb-6">
+                    30分のオンライン壁打ち・初回相談を随時受け付けています。お気軽にご連絡ください。
+                </p>
+
+                <!-- HubSpot Form 埋め込みエリア -->
+                <div id="hubspotForm">
+                    <!-- 
+            HubSpot管理画面から取得した埋め込みコードをここに配置します。
+            例:
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+              hbspt.forms.create({
+                portalId: "YOUR_PORTAL_ID",
+                formId: "YOUR_FORM_ID",
+                target: "#hubspotForm"
+              });
+            </script>
+          -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-4xl mx-auto px-6 py-8 border-t border-slate-200 text-xs text-slate-400 flex justify-between">
+        <div>&copy; WAALL All Rights Reserved.</div>
+        <div>waall.page</div>
+    </footer>
+
+</body>
+
+</html>
